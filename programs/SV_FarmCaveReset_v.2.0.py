@@ -191,6 +191,8 @@ def main() -> int:
     save_backup( selectedSave )
     save_cave_reset( selectedSave )
 
+    print( f"Farm cave reset for the save: {selectedSave.name} ({selectedSave.path})!")
+
     return 0
 
 
