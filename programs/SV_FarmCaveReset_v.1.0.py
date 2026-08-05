@@ -60,9 +60,7 @@ data_noEvent_noObject = data_noEvent[ :pos_objects] + data_noEvent[pos_objects_e
 # print(str_objects_content)
 
 
-# 4.
-output_directory = "save_modified.txt"
-
-with open(output_directory, "w", encoding="utf-8") as f:
-    f.write(data_noEvent_noObject)
+    # 4.
+    with open(savefile_content_path, "w", encoding="utf-8") as f:
+        f.write(data_noEvent_noObject)
 
